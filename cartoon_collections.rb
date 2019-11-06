@@ -31,6 +31,6 @@ def find_the_cheese(cheese_types)# code an argument here
     #binding.pry
      return cheese_types.first
    else
-       !cheese_types.include?(cheese_types)
+       cheese_types == 
     end
   end
