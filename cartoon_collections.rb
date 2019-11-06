@@ -27,10 +27,5 @@ end
 def find_the_cheese(cheese_types)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if cheese_types.include?(cheese_types.first)
-    #binding.pry
-     return cheese_types.first
-   else
-       cheese_types == 
-    end
+   cheese_types.find do 
   end
